@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;800&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0 ;
+  /* @apply md:h-[200px] h-[400px] w-full bg-no-repeat bg-cover md:rounded-[40px];
+  background-image: url('src/assets/RectangleCopy.png');
+  background-repeat: no-repeat;
+  background-position: cover;  */
+  
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+nav{
+  z-index: 1001;
+}
+.heading {
+  @apply text-white text-3xl md:text-4xl font-extrabold;
+}
+.content {
+  @apply text-black-bold font-medium text-sm;
+}
